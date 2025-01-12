@@ -23,7 +23,7 @@ public class Main {
     				System.out.println("Загружено " + T.get_HS().size() + " Вопросов");
     				int r = random.nextInt(T.get_HS().size());
     				Task current_task = Ts.get_task_by_id(r+1);
-    				System.out.println(current_task.task);
+    				System.out.println(current_task.get_task());
     				r = random.nextInt(1,5); int j = 0;
     				for(int i = 1; i<5; i++) {
     					if(i==r) {
